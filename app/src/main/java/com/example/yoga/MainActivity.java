@@ -1,23 +1,26 @@
 package com.example.yoga;
 
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
-
-
     ListView listView;
     String[] menulist;
+    Fragment mainfrag;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listView = findViewById(R.id.main_menu);
-        menulist=getResources().getStringArray(R.array.menu_list);
-        MainmenuArrayadapter adapter = new MainmenuArrayadapter(this,menulist);
-        listView.setAdapter(adapter);
+        mainfrag = new MenuListFragment();
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.main_frame,mainfrag);
+        ft.commit();
     }
 
     @Override
