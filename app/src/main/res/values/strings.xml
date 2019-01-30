@@ -2,4 +2,15 @@
     <string name="app_name">Yoga</string>
     <string name="title_activity_start_screen">StartScreen</string>
     <string name="ayush">Ayush</string>
+
+    <string-array name="menu_list">
+        <item>Priciples of Yoga</item>
+        <item>Meditation</item>
+        <item>Laughter Yoga</item>
+        <item>Yoga Therapy</item>
+        <item>Diet</item>
+        <item>Various Asanas</item>
+    </string-array>
+
 </resources>
+

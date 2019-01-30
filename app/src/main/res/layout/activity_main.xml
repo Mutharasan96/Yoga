@@ -3,12 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.Design.Light.NoActionBar"
-    tools:context=".MainActivity">
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity"
+    android:statusBarColor="@color/colorPrimary"
+    android:background="@drawable/background"
+    android:backgroundTint="@color/colorAccent">
 
  <ListView
      android:layout_width="fill_parent"
      android:layout_height="fill_parent"
+     android:id="@+id/main_menu"
+     android:divider="#000"
+     android:dividerHeight="1dp"
      tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
