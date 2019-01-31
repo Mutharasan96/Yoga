@@ -14,6 +14,17 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">share</string>
+
+    <string name="ahimsa_title">Non-violence (ahimsa)</string>
+    <string name="ahimsa_des">No killing other beings. Be meek. Be peaceful.</string>
+    <string name="saatya_title">Truthfulness (satya)</string>
+    <string name="satya_des">Live in the truth. Basically, be honest with yourself and others. Also no little lies of convenience. A lie is permissible only in well justified situations, for example, if you save with a lie the life of another human being. A Yogi is silent in doubt. Those who consistently lives in the truth radiate truth. Their fellow men trust them.
+</string>
+    <string name="asteya_title">Righteousness (asteya)</string>
+    <string name="asteya_des">Not stealing, not cheating. A Yogi is in professional life generally honest. He does not seek unwarranted advantage, but he is looking for fair trade.
+</string>
+    <string name="principles_of_yoga">Principles of Yoga</string>
 
 </resources>
 

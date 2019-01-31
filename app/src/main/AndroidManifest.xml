@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".PageActivity"></activity>
         <activity
             android:name=".StartScreen"
             android:label="@string/title_activity_start_screen">
@@ -20,9 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
